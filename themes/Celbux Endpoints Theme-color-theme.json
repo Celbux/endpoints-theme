@@ -51,11 +51,11 @@
 		{
 			"name": "Endpoint Header In/Out",
 			"scope": [
-				"endpoint.header.inout"
+				"inout.open"
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#82AAFF"
+				"foreground": "#F78C6C"
 			}
 		},
 		{
@@ -75,7 +75,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#FFFFFF"
+				"foreground": "#F78C6C"
 			}
 		},
 		{
@@ -85,7 +85,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#82AAFF"
+				"foreground": "#FFCB6B"
 			}
 		},
 		{
@@ -95,17 +95,37 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#F78C6C"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
 			"name": "Endpoint Req",
 			"scope": [
-				"endpoint.header.req"
+				"req.group"
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#F78C6C"
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Endpoint Req",
+			"scope": [
+				"req.equals"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Invalid Comment",
+			"scope": [
+				"invalid.illegal"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#e0795a"
 			}
 		},
 		{

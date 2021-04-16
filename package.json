@@ -2,7 +2,7 @@
     "name": "celbuxendpointstheme",
     "displayName": "Celbux Endpoints Theme",
     "description": "Theme for Celbux Endpoints Language",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.55.0"
     },
