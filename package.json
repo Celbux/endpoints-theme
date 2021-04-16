@@ -1,0 +1,27 @@
+{
+    "name": "celbuxendpointstheme",
+    "displayName": "Celbux Endpoints Theme",
+    "description": "Theme for Celbux Endpoints Language",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Celbux Endpoints Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Celbux Endpoints Theme-color-theme.json"
+            }
+        ]
+    },
+    "icon": "images/logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Celbux/endpoints-theme.git"
+    },
+    "publisher": "Celbux"
+}

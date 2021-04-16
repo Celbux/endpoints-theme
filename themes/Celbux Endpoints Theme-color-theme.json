@@ -1,0 +1,152 @@
+{
+	"name": "Celbux Endpoints Theme",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#181c1f",
+		"editor.foreground": "#eeffff",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+			"name": "Endpoint Open",
+			"scope": [
+				"endpoint.open"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "Endpoint Header Open",
+			"scope": [
+				"endpoint.header.open"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Endpoint Header User",
+			"scope": [
+				"endpoint.header.user"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Endpoint Header Type",
+			"scope": [
+				"endpoint.header.type"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Endpoint Header In/Out",
+			"scope": [
+				"endpoint.header.inout"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Endpoint Resp Open",
+			"scope": [
+				"endpoint.header.resp.open"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "Endpoint Resp Group",
+			"scope": [
+				"endpoint.header.resp.group"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Endpoint Resp Two Open",
+			"scope": [
+				"endpoint.header.resp.two.open"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Endpoint Resp Two Group",
+			"scope": [
+				"endpoint.header.resp.two.group"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "Endpoint Req",
+			"scope": [
+				"endpoint.header.req"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "Params One",
+			"scope": [
+				"params.open"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Params Two",
+			"scope": [
+				"params.two.open"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Params Three",
+			"scope": [
+				"params.three.open"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#546E7A"
+			}
+		}
+	]
+}
